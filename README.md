@@ -41,12 +41,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-# Preparation for Github repository
+## Preparation for Github repository
 
-# aktuellen Branch umbenennen
+### aktuellen Branch umbenennen
 git branch -m mainold
 
-# neuen Branch main erzeugen und alles einchecken
+### neuen Branch main erzeugen und alles einchecken
 git checkout --orphan main
 git add .
 git commit -m "Initial commit of main without history"
