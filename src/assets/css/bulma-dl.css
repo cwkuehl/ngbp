@@ -1,0 +1,5 @@
+/* Error with esbuild:
+@import url("./bulma-light.css") screen and (prefers-color-scheme: light);
+@import url("./bulma-dark.css") screen and (prefers-color-scheme: dark);
+*/
+@import "./bulma-dark.css";
